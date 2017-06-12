@@ -1,0 +1,133 @@
+.container {
+	background-color: #060ce9;
+}
+
+.jumbotron {
+	background-image: url(https://www.nbc.com/sites/nbcunbc/files/files/images/2015/5/28/150527_2869249_Celebrity_Jeopardy.jpg);
+	margin: 10px;
+}
+
+#title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+#question {
+	color: white;
+}
+
+#gamecontent {
+
+	background-color: #060ce9;
+	border-radius: 10px;
+	overflow: hidden;
+	padding-bottom: 20px; 
+
+}
+
+#scorecard {
+	margin-top: 20px;
+	height: 250px;
+	background-color: white;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: black;
+}
+
+#scoresheet {
+	height: 150px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+}
+
+#counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+#answer1 {
+	height: 75px;
+	width: 90%;
+	margin: 20px 0px 0px 20px;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#answer2 {
+	height: 75px;
+	width: 90%;
+	margin: 20px 0px 0px 20px;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#answer3 {
+	height: 75px;
+	width: 90%;
+	margin: 20px 0px 0px 20px;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#answer4 {
+	height: 75px;
+	width: 90%;
+	margin: 20px 0px 0px 20px;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#answer1:hover {
+	background-color: #ffff33;
+}
+
+#answer2:hover {
+	background-color: #ffff33;
+}
+
+#answer3:hover {
+	background-color: #ffff33;
+}
+
+#answer4:hover {
+	background-color: #ffff33;
+}
+
+.footer {
+	height: 100px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#footerpara {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+

@@ -7,9 +7,10 @@ var chosen;
 
 
 function continueGame() {
-	if (chosen == correctAnswer) {
-		counter++;
-	}
+	// if (chosen == correctAnswer) {
+	// 	counter++;
+	// }
+	chosen == correctAnswer ? counter++ : counter;
 
 	$("#counter").html(counter);
 

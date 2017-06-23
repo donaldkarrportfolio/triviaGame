@@ -29,7 +29,7 @@
 
 #scorecard {
 	margin-top: 20px;
-	height: 250px;
+	height: 200px;
 	background-color: white;
 	border-style: solid;
 	border-radius: 10px;
@@ -38,7 +38,7 @@
 }
 
 #scoresheet {
-	height: 150px;
+	height: 100px;
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 10px;
@@ -48,6 +48,28 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;	
+}
+
+#correctcard {
+	margin-top: 10px;
+	height: 150px;
+	background-color: white;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: black;
+}
+
+#correctsheet {
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+}
+
+#showcorrect {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #answer1 {

@@ -14,6 +14,8 @@ function continueGame() {
 
 	$("#counter").html(counter);
 
+	$("#showcorrect").html(correctAnswer);
+
 	ajax();
 
 }

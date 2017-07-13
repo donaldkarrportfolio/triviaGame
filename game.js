@@ -2,17 +2,18 @@
 var correctAnswer = [];
 var questions = [];
 var counter = 0;
+var incorrect = 0;
 var queryURL = "https://opentdb.com/api.php?amount=1&type=multiple";
 var chosen;
 
 
 function continueGame() {
-	// if (chosen == correctAnswer) {
-	// 	counter++;
-	// }
-	chosen == correctAnswer ? counter++ : counter;
+
+	chosen == correctAnswer ? counter++ : incorrect++;
 
 	$("#counter").html(counter);
+
+	$("#incorrect").html(incorrect);
 
 	$("#showcorrect").html(correctAnswer);
 

@@ -3,7 +3,8 @@
 }
 
 .jumbotron {
-	background-image: url(https://www.nbc.com/sites/nbcunbc/files/files/images/2015/5/28/150527_2869249_Celebrity_Jeopardy.jpg);
+	background-image: url(http://ramburglar.com/wp-content/upload/genesis/Jeopardy!-Deluxe.png);
+	background-size: cover;
 	margin: 10px;
 }
 
